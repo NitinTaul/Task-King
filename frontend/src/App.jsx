@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import {
   Box, Button, Input, Textarea, Heading, Flex, Text, Checkbox, Stack, Alert, AlertIcon, CloseButton, Image
 } from "@chakra-ui/react";
 import axios from "axios";
-import Logo from "../src/assets/Logo.png"; // <- add your uploaded logo here
+import Logo from "../src/assets/Logo.png"; 
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 const API_TASKS = `${API_BASE_URL}/tasks`;
